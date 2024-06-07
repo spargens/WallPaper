@@ -6,6 +6,15 @@ const {width, height} = Dimensions.get('screen');
 export default function App() {
   return (
     <View>
+      <Text
+        style={{
+          fontWeight: 'bold',
+          color: 'white',
+          marginLeft: 12,
+          fontSize: 18,
+        }}>
+        Wallpaper
+      </Text>
       <FlatList
         data={imgs}
         keyExtractor={(_, index) => index}
