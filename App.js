@@ -13,7 +13,7 @@ export default function App() {
           marginLeft: 12,
           fontSize: 18,
         }}>
-        Wallpaper
+        Wallpaper Viewer
       </Text>
       <FlatList
         data={imgs}
